@@ -1,0 +1,315 @@
+body {
+  background-image: url('../images/back_medium.png'), -webkit-linear-gradient(84deg, #fff1db, #fff7e9 40%, #fffbf4 70%, #fce9c5);
+  background-image: url('../images/back_medium.png'), -o-linear-gradient(354deg, #fff1db, #fff7e9 40%, #fffbf4 70%, #fce9c5);
+  background-image: url('../images/back_medium.png'), linear-gradient(354deg, #fff1db, #fff7e9 40%, #fffbf4 70%, #fce9c5);
+  background-position: 0px 100%, 0% 0%;
+  background-size: cover, auto;
+  background-repeat: no-repeat, repeat;
+  background-attachment: scroll, scroll;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  margin-left: 121px;
+  color: white;
+  font-weight: 400;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.navbar {
+  background-color: rgba(237, 233, 216, 0.29);
+  box-shadow: black 1px 1px 3px 0px;
+  opacity: 1;
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  -webkit-transition: none 0ms ease;
+  -o-transition: none 0ms ease;
+  transition: none 0ms ease;
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+}
+.homecontent {
+  display: block;
+  overflow-x: visible;
+  overflow-y: visible;
+  margin-top: 461px;
+  margin-left: -65px;
+  float: left;
+  clear: none;
+  background-color: rgba(224, 222, 222, 0.68);
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  font-family: Nunito, sans-serif;
+  font-size: 23px;
+}
+.fisioterapeuta {
+  padding-top: 32px;
+  padding-bottom: 36px;
+  float: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+.nameemailandphone {
+  padding-right: 39px;
+  padding-bottom: 15px;
+  float: none;
+  color: #e4804a;
+  font-size: 25px;
+}
+.tratamentoscontainer {
+  display: block;
+  margin-top: 84px;
+  float: none;
+  clear: none;
+  background-color: rgba(199, 193, 193, 0.38);
+  font-family: Nunito, sans-serif;
+  color: white;
+  font-size: 17px;
+}
+.trattitle {
+  display: block;
+  margin-left: -16px;
+  padding-top: 16px;
+  float: none;
+  color: #d44a00;
+  font-size: 19px;
+  font-weight: 700;
+}
+.tratdesc {
+  color: black;
+}
+.aodomicilio {
+  padding-top: 12px;
+  padding-bottom: 19px;
+  font-size: 33px;
+  font-weight: 700;
+  text-align: center;
+}
+.homecontainer {
+  padding-left: 300px;
+  float: none;
+}
+.map {
+  position: static;
+  margin-left: 110px;
+  float: left;
+}
+.contacts {
+  margin-bottom: 20px;
+}
+@media (max-width: 991px) {
+  body {
+    background-color: rgba(237, 206, 171, 0.24);
+    background-position: -73px -64px, 0% 0%;
+    background-size: auto, auto;
+    font-size: 10px;
+  }
+  p {
+    margin-left: 78px;
+  }
+  .selectedmenu.w--open {
+    background-color: #fadfb9;
+  }
+  .menulist {
+    background-color: rgba(250, 223, 185, 0.95);
+    font-weight: 700;
+  }
+  .homecontent {
+    margin-top: 321px;
+    -webkit-transform: scale(1.41);
+    -ms-transform: scale(1.41);
+    -o-transform: scale(1.41);
+    transform: scale(1.41);
+  }
+  .fisioterapeuta {
+    padding-top: 18px;
+    padding-bottom: 15px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    font-size: 36px;
+  }
+  .nameemailandphone {
+    padding-right: 20px;
+    padding-bottom: 7px;
+    font-size: 15px;
+  }
+  .tratamentoscontainer {
+    margin-top: 63px;
+    font-size: 12px;
+  }
+  .trattitle {
+    padding-top: 0px;
+    color: #d44a00;
+    font-size: 15px;
+  }
+  .tratdesc {
+    font-size: 11px;
+  }
+  .aodomicilio {
+    font-size: 27px;
+  }
+  .homecontainer {
+    padding-left: 213px;
+  }
+  .map {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    background-position: -16px -37px, 0% 0%;
+    background-size: 800px, auto;
+  }
+  p {
+    margin-left: 104px;
+  }
+  .homecontent {
+    margin-top: 221px;
+    margin-left: -187px;
+    -webkit-transform: scale(1.14);
+    -ms-transform: scale(1.14);
+    -o-transform: scale(1.14);
+    transform: scale(1.14);
+  }
+  .fisioterapeuta {
+    padding-top: 16px;
+    padding-bottom: 10px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    font-size: 32px;
+  }
+  .nameemailandphone {
+    padding-right: 13px;
+    padding-bottom: 3px;
+    font-size: 14px;
+  }
+  .tratamentoscontainer {
+    margin-top: 29px;
+    padding-left: 19px;
+  }
+  .tratdesc {
+    display: none;
+  }
+  .aodomicilio {
+    font-size: 22px;
+  }
+  .homecontainer {
+    padding-left: 294px;
+  }
+}
+@media (max-width: 479px) {
+  body {
+    background-image: url('../images/back.png'), -webkit-linear-gradient(84deg, #fadfb4, #fff7e9 40%, #fffbf4 70%, #fce9c5);
+    background-image: url('../images/back.png'), -o-linear-gradient(354deg, #fadfb4, #fff7e9 40%, #fffbf4 70%, #fce9c5);
+    background-image: url('../images/back.png'), linear-gradient(354deg, #fadfb4, #fff7e9 40%, #fffbf4 70%, #fce9c5);
+    background-position: -15px -118px, 0% 0%;
+    background-size: auto 600px, auto;
+  }
+  .homecontent {
+    margin-top: 135px;
+    margin-left: -205px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  .fisioterapeuta {
+    padding-right: 103px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    font-size: 28px;
+  }
+  .nameemailandphone {
+    padding-right: 0px;
+    font-size: 12px;
+  }
+  .tratamentoscontainer {
+    margin-top: 53px;
+  }
+  .trattitle {
+    margin-top: -9px;
+    margin-left: -51px;
+    padding-top: 0px;
+    font-size: 13px;
+  }
+  .tratdesc {
+    display: none;
+  }
+  .aodomicilio {
+    padding-top: 9px;
+    padding-bottom: 17px;
+    font-size: 21px;
+  }
+  .homecontainer {
+    padding-left: 214px;
+  }
+}
