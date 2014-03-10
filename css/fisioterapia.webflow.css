@@ -266,9 +266,9 @@ p {
 }
 @media (max-width: 479px) {
   body {
-    background-image: url('../images/back.png'), -webkit-linear-gradient(84deg, #fadfb4, #fff7e9 40%, #fffbf4 70%, #fce9c5);
-    background-image: url('../images/back.png'), -o-linear-gradient(354deg, #fadfb4, #fff7e9 40%, #fffbf4 70%, #fce9c5);
-    background-image: url('../images/back.png'), linear-gradient(354deg, #fadfb4, #fff7e9 40%, #fffbf4 70%, #fce9c5);
+    background-image: url('../images/back_medium.png'), -webkit-linear-gradient(84deg, #fadfb4, #fff7e9 40%, #fffbf4 70%, #fce9c5);
+    background-image: url('../images/back_medium.png'), -o-linear-gradient(354deg, #fadfb4, #fff7e9 40%, #fffbf4 70%, #fce9c5);
+    background-image: url('../images/back_medium.png'), linear-gradient(354deg, #fadfb4, #fff7e9 40%, #fffbf4 70%, #fce9c5);
     background-position: -15px -118px, 0% 0%;
     background-size: auto 600px, auto;
   }
